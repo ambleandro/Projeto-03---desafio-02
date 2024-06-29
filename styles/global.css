@@ -12,8 +12,8 @@
   --details-color: #F67669;
   --main-color: #FFFFFF;
 
-  --font-family-po: font-family: "Poppins", sans-serif;
-  --font-family-st: font-family: "Staatliches", sans-serif;
+  --font-family-po: "Poppins", sans-serif;
+  --font-family-st: "Staatliches", sans-serif;
 
   --h1: 400 36px/100% var(--font-family-st);
   --h2: 400 24px var(--font-family-st);
@@ -22,7 +22,17 @@
   --button: 400 20px var(--font-family-st);
 }
 
+body::before {
+  content: "";
+  width: 100%;
+  height: 465px;
+  position: absolute;
+  z-index: -1;
+  background-color: var(--bg-head-color);
+}
+
 #container {
   width: 750px;
   margin: auto;
 }
+

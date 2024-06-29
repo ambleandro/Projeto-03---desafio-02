@@ -1,9 +1,35 @@
 header {
   text-align: center;
-  padding-block: 107px 32px;
+  padding-block: 107px 0;
 
   h1 {
     font: var(--h1);
     color: white;
+  }
+
+  p {
+    font: var(--p);
+    color: white;
+    padding-bottom: 32px; 
+  }
+
+  img {
+    margin-block: 0 29px;
+  }
+
+  #top {
+    display: flex;
+    width: 750px;
+    height: 133px;
+    background-color: var(--details-color);
+    border-radius: 20px 20px 0 0;
+
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      font: var(--h2);
+      color: white;
+    }
   }
 }
