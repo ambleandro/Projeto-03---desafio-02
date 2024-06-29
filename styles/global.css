@@ -22,6 +22,10 @@
   --button: 400 20px var(--font-family-st);
 }
 
+body {
+  background-color: var(--bg-color);
+}
+
 body::before {
   content: "";
   width: 100%;

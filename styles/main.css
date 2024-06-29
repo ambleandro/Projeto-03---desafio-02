@@ -1,0 +1,28 @@
+#main {
+  width: 750px;
+  min-height: 350px;
+  background-color: white;
+
+  padding: 30px 64px 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  display: flex;
+  gap: 22px;
+
+  #nome {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  #sobrenome {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}
