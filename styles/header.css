@@ -1,0 +1,9 @@
+header {
+  text-align: center;
+  padding-block: 107px 32px;
+
+  h1 {
+    font: var(--h1);
+    color: white;
+  }
+}
