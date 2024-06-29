@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /* variáveis para colors */
+  --bg-head-color: #293241;
+  --bg-color: #BFD7E4;
+  --details-color: #F67669;
+  --main-color: #FFFFFF;
+}
