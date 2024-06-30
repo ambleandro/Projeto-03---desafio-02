@@ -19,6 +19,7 @@
   --h2: 400 24px var(--font-family-st);
   --p: 400 16px var(--font-family-po);
   --label: 600 14px var(--font-family-po);
+  --span: 400 12px var(--font-family-po);
   --button: 400 20px var(--font-family-st);
 }
 
